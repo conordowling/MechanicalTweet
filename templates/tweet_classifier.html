@@ -1,0 +1,10 @@
+<!-- TWEET GOES HERE -->
+<div>
+	{{ tweet["text"] }}
+</div>
+
+<div>
+	<button href="/{{topic}}/label/{{user}}/{{tweet['_id']}}/positive">Positive</button>
+	<button href="/{{topic}}/label/{{user}}/{{tweet['_id']}}/neutral">Neutral</button>
+	<button href="/{{topic}}/label/{{user}}/{{tweet['_id']}}/negative">Negative</button>
+</div>	
